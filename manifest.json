@@ -1,6 +1,6 @@
 {
-  "short_name": "Starships App",
-  "name": "Swapi Starships App",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
