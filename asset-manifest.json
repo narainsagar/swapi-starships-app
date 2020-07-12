@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8913ef21.chunk.css",
-    "main.js": "/static/js/main.f4eaaad5.chunk.js",
-    "main.js.map": "/static/js/main.f4eaaad5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ea96fe3e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ea96fe3e.js.map",
-    "static/js/2.af1d83c1.chunk.js": "/static/js/2.af1d83c1.chunk.js",
-    "static/js/2.af1d83c1.chunk.js.map": "/static/js/2.af1d83c1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b76d2ae2ea0127a4290da41cd09320c1.js": "/precache-manifest.b76d2ae2ea0127a4290da41cd09320c1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.8913ef21.chunk.css.map": "/static/css/main.8913ef21.chunk.css.map",
-    "static/js/2.af1d83c1.chunk.js.LICENSE.txt": "/static/js/2.af1d83c1.chunk.js.LICENSE.txt"
+    "main.css": "/swapi-starships-app/static/css/main.8913ef21.chunk.css",
+    "main.js": "/swapi-starships-app/static/js/main.f4eaaad5.chunk.js",
+    "main.js.map": "/swapi-starships-app/static/js/main.f4eaaad5.chunk.js.map",
+    "runtime-main.js": "/swapi-starships-app/static/js/runtime-main.8276d863.js",
+    "runtime-main.js.map": "/swapi-starships-app/static/js/runtime-main.8276d863.js.map",
+    "static/js/2.af1d83c1.chunk.js": "/swapi-starships-app/static/js/2.af1d83c1.chunk.js",
+    "static/js/2.af1d83c1.chunk.js.map": "/swapi-starships-app/static/js/2.af1d83c1.chunk.js.map",
+    "index.html": "/swapi-starships-app/index.html",
+    "precache-manifest.1aab705415b212cd5c4ad55ee69eca63.js": "/swapi-starships-app/precache-manifest.1aab705415b212cd5c4ad55ee69eca63.js",
+    "service-worker.js": "/swapi-starships-app/service-worker.js",
+    "static/css/main.8913ef21.chunk.css.map": "/swapi-starships-app/static/css/main.8913ef21.chunk.css.map",
+    "static/js/2.af1d83c1.chunk.js.LICENSE.txt": "/swapi-starships-app/static/js/2.af1d83c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea96fe3e.js",
+    "static/js/runtime-main.8276d863.js",
     "static/js/2.af1d83c1.chunk.js",
     "static/css/main.8913ef21.chunk.css",
     "static/js/main.f4eaaad5.chunk.js"
