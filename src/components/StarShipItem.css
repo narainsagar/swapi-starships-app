@@ -1,0 +1,28 @@
+.ui.container.segment{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.starships-list .item {
+    border-bottom: 1px solid #eee;
+}
+
+.starships-list .ui.card {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.starships-list:last-child .ui.card {
+    margin-bottom: 30px;
+}
+
+.paginationbtns {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.ui.icon.right.labeled.button{
+    float: right;
+}

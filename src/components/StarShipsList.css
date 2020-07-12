@@ -1,0 +1,15 @@
+.ui.sub.header .text{
+    float: left;
+    font-size: .85714286em;
+    font-weight: 700;
+}
+
+.ui.sub.header .ui.progress{
+    width: 85%;
+    margin-left: 110px;
+}
+
+.ui.progress .bar {
+    height: 1.00em;
+    border-radius: .18571429rem;
+}
