@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { fetchStarships } from '../actions';
 import { Button } from 'semantic-ui-react';
 
-const StarShipsList = ({response, fetchStarships}) => {
+const StarShipsList = ({ response, fetchStarships }) => {
     useEffect(() => {
         fetchStarships("1");
     }, [fetchStarships]);
@@ -13,25 +13,25 @@ const StarShipsList = ({response, fetchStarships}) => {
     const renderStarshipItem = (starships) => {
         return starships.map(starship => {
             return (
-                <StartShipItem starship={starship} key={starship.name}/>
+                <StartShipItem starship={starship} key={starship.name} />
             );
         })
     }
 
     const renderPreviousBtn = (prelink) => {
         if (!prelink)
-            return <Button content='Previos' icon='left arrow' labelPosition='left' disabled/>;
+            return <Button content='Previos' icon='left arrow' labelPosition='left' disabled />;
 
-        return <Button content='Previos' icon='left arrow' labelPosition='left' onClick={() => handlePageLink(prelink)}/>;
-        
-        
+        return <Button content='Previos' icon='left arrow' labelPosition='left' onClick={() => handlePageLink(prelink)} />;
+
+
     }
 
     const renderNextBtn = (nextlink) => {
         if (!nextlink)
-            return <Button content='Next' icon='right arrow' labelPosition='right' disabled/>;
-        
-        return <Button content='Next' icon='right arrow' labelPosition='right' onClick={() => handlePageLink(nextlink)}/>;
+            return <Button content='Next' icon='right arrow' labelPosition='right' disabled />;
+
+        return <Button content='Next' icon='right arrow' labelPosition='right' onClick={() => handlePageLink(nextlink)} />;
     }
 
     const handlePageLink = (link) => {
@@ -39,7 +39,7 @@ const StarShipsList = ({response, fetchStarships}) => {
             fetchStarships(link.substr(-1));
     }
 
-    if(Object.keys(response).length === 0){
+    if (Object.keys(response).length === 0) {
         return <div>No Data</div>;
     }
 
@@ -59,7 +59,7 @@ const StarShipsList = ({response, fetchStarships}) => {
 };
 
 const mapStateToProps = (state) => {
-    return { response:state }
+    return { response: state }
 }
 
-export default connect(mapStateToProps, {fetchStarships})(StarShipsList);
+export default connect(mapStateToProps, { fetchStarships })(StarShipsList);
